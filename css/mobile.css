@@ -1,0 +1,109 @@
+body,html {
+  height: 100%;
+}
+nav .mobile{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  background-color: #2B2B2B;
+  position: fixed;
+  bottom: -1px;
+  overflow: hidden;
+  width: 100%;
+}
+
+nav a {
+  padding: 12px 10%;
+  font-size: 20px;
+  text-decoration: none;
+  color: #EDEDED;
+}
+
+
+.desktop {
+  display: none;
+}
+
+footer {
+background-color: #777777;
+text-align: center;
+letter-spacing: 1px;
+padding: 0 10px 50px 10px;
+}
+
+.desktop{
+  display: none;
+}
+.actual{
+  color: #0076BC;
+}
+
+.bgimage1, .bgimage2, .bgimage3{
+
+  width: 100%;
+  background-position: center;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.bgimage1 {
+  background-image: url(../image/first.jpg);
+  height: 300px;
+}
+
+.bgimage2 {
+
+  background-image: url(../image/second.png);
+  height: 300px;
+}
+
+.bgimage3 {
+
+  background-image: url(../image/third.png);
+  height: 300px;
+}
+
+.bgimage1 .caption {
+    position: absolute;
+    left: 0;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+}
+
+section {
+  height: 100%;
+  padding: 20px;
+  background-color: #1C3C82;
+}
+section p {
+  letter-spacing: 1px ;
+  color: #B7BCBF;
+  text-align: justify;
+}
+
+.productimg {
+  width: 95%;
+  padding: 2%;
+}
+
+h1 {
+  font-size: 20px;
+  color: #EDEDED;
+}
+h2{
+  background-color: #2B2B2B;
+  font-size: 18px;
+  color: #EDEDED;
+  padding: 2px 10px 2px 10px;
+}
